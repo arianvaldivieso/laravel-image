@@ -46,7 +46,7 @@ jobs:
         context: .
         file: ./Dockerfile
         tags: |
-          atorrescogollo/hello_github_actions:${{ env.SOURCE_NAME }}
+          arianvaldivieso/laravel }}
       env:
         SOURCE_NAME: ${{ steps.prepare_source.outputs.SOURCE_NAME }}
 
